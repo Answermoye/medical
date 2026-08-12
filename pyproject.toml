@@ -1,0 +1,53 @@
+[project]
+name = "medical-guide"
+version = "0.1.0"
+description = "医疗导诊与报告解读助手 - 基于多智能体架构的toB级系统"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    # Web框架
+    "fastapi>=0.109.0",
+    "uvicorn[standard]>=0.27.0",
+    "python-multipart>=0.0.6",
+    "sse-starlette>=1.8.0",
+    # 数据库
+    "sqlalchemy>=2.0.25",
+    "alembic>=1.13.0",
+    "pymysql>=1.1.0",
+    "redis>=5.0.0",
+    # LangChain/LangGraph
+    "langchain>=0.1.0",
+    "langchain-openai>=0.0.5",
+    "langgraph>=0.0.20",
+    # Milvus
+    "pymilvus>=2.3.0",
+    # Embedding和模型
+    "sentence-transformers>=2.3.0",
+    "transformers>=4.37.0",
+    "torch>=2.1.0",
+    # 工具
+    "python-jose[cryptography]>=3.3.0",
+    "passlib[bcrypt]>=1.7.4",
+    "python-dotenv>=1.0.0",
+    "httpx>=0.26.0",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.1.0",
+    # OCR
+    "pytesseract>=0.3.10",
+    "pillow>=10.2.0",
+    # 测试
+    "pytest>=7.4.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-cov>=4.1.0",
+    "fastmcp>=3.4.5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=24.1.0",
+    "isort>=5.13.0",
+    "flake8>=7.0.0",
+    "mypy>=1.8.0",
+    "pre-commit>=3.6.0",
+]
+

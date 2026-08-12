@@ -1,0 +1,134 @@
+[
+  {
+    "lab_values": [
+      {"item_name": "空腹血糖", "value": 7.2, "unit": "mmol/L", "reference_low": 3.9, "reference_high": 6.1},
+      {"item_name": "糖化血红蛋白", "value": 6.8, "unit": "%", "reference_low": 4.0, "reference_high": 6.0}
+    ],
+    "expected_abnormal_count": 2,
+    "expected_risk_level": "attention",
+    "expected_abnormal_types": ["high", "high"]
+  },
+  {
+    "lab_values": [
+      {"item_name": "总胆固醇", "value": 6.5, "unit": "mmol/L", "reference_low": 2.8, "reference_high": 5.2},
+      {"item_name": "甘油三酯", "value": 2.8, "unit": "mmol/L", "reference_low": 0.3, "reference_high": 1.7},
+      {"item_name": "低密度脂蛋白", "value": 4.2, "unit": "mmol/L", "reference_low": 2.1, "reference_high": 3.1}
+    ],
+    "expected_abnormal_count": 3,
+    "expected_risk_level": "attention",
+    "expected_abnormal_types": ["high", "high", "high"]
+  },
+  {
+    "lab_values": [
+      {"item_name": "白细胞计数", "value": 12.5, "unit": "×10^9/L", "reference_low": 3.5, "reference_high": 9.5},
+      {"item_name": "中性粒细胞比率", "value": 78, "unit": "%", "reference_low": 40, "reference_high": 75}
+    ],
+    "expected_abnormal_count": 2,
+    "expected_risk_level": "attention",
+    "expected_abnormal_types": ["high", "high"]
+  },
+  {
+    "lab_values": [
+      {"item_name": "血红蛋白", "value": 95, "unit": "g/L", "reference_low": 115, "reference_high": 150},
+      {"item_name": "红细胞计数", "value": 3.2, "unit": "×10^12/L", "reference_low": 3.8, "reference_high": 5.1}
+    ],
+    "expected_abnormal_count": 2,
+    "expected_risk_level": "attention",
+    "expected_abnormal_types": ["low", "low"]
+  },
+  {
+    "lab_values": [
+      {"item_name": "谷丙转氨酶", "value": 85, "unit": "U/L", "reference_low": 7, "reference_high": 40},
+      {"item_name": "谷草转氨酶", "value": 62, "unit": "U/L", "reference_low": 13, "reference_high": 35}
+    ],
+    "expected_abnormal_count": 2,
+    "expected_risk_level": "attention",
+    "expected_abnormal_types": ["high", "high"]
+  },
+  {
+    "lab_values": [
+      {"item_name": "肌酐", "value": 135, "unit": "μmol/L", "reference_low": 41, "reference_high": 81},
+      {"item_name": "尿素氮", "value": 8.5, "unit": "mmol/L", "reference_low": 2.6, "reference_high": 7.5}
+    ],
+    "expected_abnormal_count": 2,
+    "expected_risk_level": "see_doctor",
+    "expected_abnormal_types": ["high", "high"]
+  },
+  {
+    "lab_values": [
+      {"item_name": "尿酸", "value": 520, "unit": "μmol/L", "reference_low": 150, "reference_high": 416}
+    ],
+    "expected_abnormal_count": 1,
+    "expected_risk_level": "attention",
+    "expected_abnormal_types": ["high"]
+  },
+  {
+    "lab_values": [
+      {"item_name": "促甲状腺激素", "value": 0.1, "unit": "mIU/L", "reference_low": 0.27, "reference_high": 4.2}
+    ],
+    "expected_abnormal_count": 1,
+    "expected_risk_level": "attention",
+    "expected_abnormal_types": ["low"]
+  },
+  {
+    "lab_values": [
+      {"item_name": "空腹血糖", "value": 5.2, "unit": "mmol/L", "reference_low": 3.9, "reference_high": 6.1},
+      {"item_name": "总胆固醇", "value": 4.5, "unit": "mmol/L", "reference_low": 2.8, "reference_high": 5.2}
+    ],
+    "expected_abnormal_count": 0,
+    "expected_risk_level": "normal",
+    "expected_abnormal_types": []
+  },
+  {
+    "lab_values": [
+      {"item_name": "白细胞计数", "value": 5.5, "unit": "×10^9/L", "reference_low": 3.5, "reference_high": 9.5},
+      {"item_name": "血红蛋白", "value": 135, "unit": "g/L", "reference_low": 115, "reference_high": 150},
+      {"item_name": "血小板计数", "value": 220, "unit": "×10^9/L", "reference_low": 125, "reference_high": 350}
+    ],
+    "expected_abnormal_count": 0,
+    "expected_risk_level": "normal",
+    "expected_abnormal_types": []
+  },
+  {
+    "lab_values": [
+      {"item_name": "肌钙蛋白I", "value": 0.5, "unit": "ng/mL", "reference_low": 0, "reference_high": 0.04},
+      {"item_name": "肌酸激酶同工酶", "value": 35, "unit": "U/L", "reference_low": 0, "reference_high": 24}
+    ],
+    "expected_abnormal_count": 2,
+    "expected_risk_level": "see_doctor",
+    "expected_abnormal_types": ["high", "high"]
+  },
+  {
+    "lab_values": [
+      {"item_name": "D-二聚体", "value": 2.5, "unit": "mg/L", "reference_low": 0, "reference_high": 0.5}
+    ],
+    "expected_abnormal_count": 1,
+    "expected_risk_level": "see_doctor",
+    "expected_abnormal_types": ["high"]
+  },
+  {
+    "lab_values": [
+      {"item_name": "维生素B12", "value": 150, "unit": "pg/mL", "reference_low": 200, "reference_high": 900},
+      {"item_name": "叶酸", "value": 3.0, "unit": "ng/mL", "reference_low": 3.1, "reference_high": 17.5}
+    ],
+    "expected_abnormal_count": 2,
+    "expected_risk_level": "attention",
+    "expected_abnormal_types": ["low", "low"]
+  },
+  {
+    "lab_values": [
+      {"item_name": "钙", "value": 2.8, "unit": "mmol/L", "reference_low": 2.11, "reference_high": 2.52}
+    ],
+    "expected_abnormal_count": 1,
+    "expected_risk_level": "attention",
+    "expected_abnormal_types": ["high"]
+  },
+  {
+    "lab_values": [
+      {"item_name": "钾", "value": 3.0, "unit": "mmol/L", "reference_low": 3.5, "reference_high": 5.3}
+    ],
+    "expected_abnormal_count": 1,
+    "expected_risk_level": "see_doctor",
+    "expected_abnormal_types": ["low"]
+  }
+]
